@@ -1,0 +1,83 @@
+2026-10-28 23:29:06,749 | INFO | Starting college_v1_30e run; smoke_test=False
+2026-10-29 00:09:57,361 | INFO | Starting college_v1_30e run; smoke_test=False
+2026-10-29 00:10:35,070 | INFO | Starting college_v1_30e run; smoke_test=False
+2026-10-29 01:15:16,175 | INFO | Baseline epoch 1/30 train_acc=50.160 val_acc=59.820 time=131.4s
+2026-10-29 01:15:51,955 | INFO | Starting smoke run; smoke_test=True
+2026-10-29 01:15:59,917 | INFO | Baseline epoch 1/1 train_acc=21.582 val_acc=24.609 time=3.9s
+2026-10-29 01:16:13,150 | INFO | conventional pruning structural validation passed: params=552322, MACs=191773492
+2026-10-29 01:17:04,520 | INFO | conventional_pruned epoch 1/1 train_acc=29.102 val_acc=23.047 time=49.6s
+2026-10-29 01:17:07,696 | INFO | Cache working-set reference: 1.500 MiB (reported by PyTorch device property L2_cache_size)
+2026-10-29 01:17:10,807 | INFO | cache-aware pruning structural validation passed: params=453794, MACs=159865304
+2026-10-29 01:17:10,822 | INFO | Cache policy calibration offset=-0.040 params=453794 MACs=159865304 gap=16.64%
+2026-10-29 01:17:13,230 | INFO | cache-aware pruning structural validation passed: params=418506, MACs=153405872
+2026-10-29 01:17:13,247 | INFO | Cache policy calibration offset=-0.020 params=418506 MACs=153405872 gap=20.01%
+2026-10-29 01:17:15,824 | INFO | cache-aware pruning structural validation passed: params=414978, MACs=152070576
+2026-10-29 01:17:15,842 | INFO | Cache policy calibration offset=+0.000 params=414978 MACs=152070576 gap=20.70%
+2026-10-29 01:17:18,404 | INFO | cache-aware pruning structural validation passed: params=411666, MACs=151710088
+2026-10-29 01:17:18,418 | INFO | Cache policy calibration offset=+0.020 params=411666 MACs=151710088 gap=20.89%
+2026-10-29 01:17:20,673 | INFO | cache-aware pruning structural validation passed: params=398778, MACs=143862112
+2026-10-29 01:17:20,688 | INFO | Cache policy calibration offset=+0.040 params=398778 MACs=143862112 gap=24.98%
+2026-10-29 01:17:20,930 | WARNING | Achieved MAC reductions differ by 11.08 percentage points (> 5.0 pp). Report this limitation; do not claim perfectly matched compute budgets.
+2026-10-29 01:17:32,819 | INFO | cache_aware_pruned epoch 1/1 train_acc=26.416 val_acc=21.289 time=10.5s
+2026-10-29 01:17:39,922 | INFO | Final artifact generation complete. Required artifacts verified: 11/11
+2026-10-29 01:18:25,739 | INFO | Starting college_v1_30e run; smoke_test=False
+2026-10-29 01:21:09,311 | INFO | Baseline epoch 1/30 train_acc=50.160 val_acc=59.820 time=138.6s
+2026-10-29 01:26:55,549 | INFO | Baseline epoch 2/30 train_acc=68.667 val_acc=67.140 time=322.5s
+2026-10-29 01:32:43,884 | INFO | Baseline epoch 3/30 train_acc=75.469 val_acc=69.540 time=324.6s
+2026-10-29 01:38:36,929 | INFO | Baseline epoch 4/30 train_acc=79.009 val_acc=75.480 time=329.3s
+2026-10-29 01:44:31,733 | INFO | Baseline epoch 5/30 train_acc=81.096 val_acc=78.760 time=331.0s
+2026-10-29 01:50:26,855 | INFO | Baseline epoch 6/30 train_acc=82.322 val_acc=71.800 time=331.4s
+2026-10-29 01:56:22,728 | INFO | Baseline epoch 7/30 train_acc=83.640 val_acc=81.620 time=332.1s
+2026-10-29 02:02:18,005 | INFO | Baseline epoch 8/30 train_acc=84.484 val_acc=78.720 time=331.6s
+2026-10-29 02:08:15,163 | INFO | Baseline epoch 9/30 train_acc=85.264 val_acc=77.640 time=333.4s
+2026-10-29 02:14:09,234 | INFO | Baseline epoch 10/30 train_acc=85.787 val_acc=83.200 time=330.3s
+2026-10-29 02:20:01,318 | INFO | Baseline epoch 11/30 train_acc=86.764 val_acc=81.580 time=328.3s
+2026-10-29 02:25:53,273 | INFO | Baseline epoch 12/30 train_acc=87.171 val_acc=81.120 time=328.2s
+2026-10-29 02:31:43,132 | INFO | Baseline epoch 13/30 train_acc=87.762 val_acc=85.460 time=326.1s
+2026-10-29 02:37:31,388 | INFO | Baseline epoch 14/30 train_acc=88.387 val_acc=86.320 time=324.5s
+2026-10-29 02:43:19,252 | INFO | Baseline epoch 15/30 train_acc=88.636 val_acc=80.080 time=324.2s
+2026-10-29 02:49:06,255 | INFO | Baseline epoch 16/30 train_acc=89.596 val_acc=86.680 time=323.7s
+2026-10-29 02:54:48,102 | INFO | Baseline epoch 17/30 train_acc=90.311 val_acc=86.720 time=318.5s
+2026-10-29 03:00:30,213 | INFO | Baseline epoch 18/30 train_acc=91.153 val_acc=85.960 time=318.9s
+2026-10-29 03:06:11,062 | INFO | Baseline epoch 19/30 train_acc=91.938 val_acc=87.860 time=317.6s
+2026-10-29 03:11:53,646 | INFO | Baseline epoch 20/30 train_acc=92.676 val_acc=86.780 time=318.8s
+2026-10-29 03:17:40,244 | INFO | Baseline epoch 21/30 train_acc=93.691 val_acc=88.960 time=322.8s
+2026-10-29 03:22:57,479 | INFO | Baseline epoch 22/30 train_acc=94.344 val_acc=88.060 time=297.2s
+2026-10-29 03:27:15,965 | INFO | Baseline epoch 23/30 train_acc=95.373 val_acc=90.740 time=238.4s
+2026-10-29 03:31:34,553 | INFO | Baseline epoch 24/30 train_acc=96.024 val_acc=91.640 time=238.5s
+2026-10-29 03:35:52,941 | INFO | Baseline epoch 25/30 train_acc=96.900 val_acc=92.260 time=238.3s
+2026-10-29 03:40:11,358 | INFO | Baseline epoch 26/30 train_acc=97.511 val_acc=92.860 time=238.3s
+2026-10-29 03:44:29,755 | INFO | Baseline epoch 27/30 train_acc=98.233 val_acc=93.160 time=238.3s
+2026-10-29 03:48:48,000 | INFO | Baseline epoch 28/30 train_acc=98.662 val_acc=93.340 time=238.2s
+2026-10-29 03:53:06,288 | INFO | Baseline epoch 29/30 train_acc=98.889 val_acc=93.320 time=238.3s
+2026-10-29 03:57:24,623 | INFO | Baseline epoch 30/30 train_acc=99.009 val_acc=93.360 time=238.2s
+2026-10-29 03:58:16,252 | INFO | conventional pruning structural validation passed: params=462986, MACs=162690800
+2026-10-29 03:59:56,338 | INFO | conventional_pruned epoch 1/8 train_acc=93.702 val_acc=89.900 time=95.1s
+2026-10-29 04:01:04,230 | INFO | conventional_pruned epoch 2/8 train_acc=94.709 val_acc=90.060 time=63.7s
+2026-10-29 04:02:12,882 | INFO | conventional_pruned epoch 3/8 train_acc=95.318 val_acc=91.280 time=64.5s
+2026-10-29 04:03:21,785 | INFO | conventional_pruned epoch 4/8 train_acc=95.798 val_acc=91.280 time=64.7s
+2026-10-29 04:04:30,973 | INFO | conventional_pruned epoch 5/8 train_acc=96.973 val_acc=91.900 time=65.0s
+2026-10-29 04:05:40,113 | INFO | conventional_pruned epoch 6/8 train_acc=97.787 val_acc=92.620 time=64.9s
+2026-10-29 04:06:49,260 | INFO | conventional_pruned epoch 7/8 train_acc=98.327 val_acc=92.540 time=65.0s
+2026-10-29 04:07:58,464 | INFO | conventional_pruned epoch 8/8 train_acc=98.749 val_acc=92.900 time=65.0s
+2026-10-29 04:08:14,361 | INFO | Cache working-set reference: 1.500 MiB (reported by PyTorch device property L2_cache_size)
+2026-10-29 04:08:16,539 | INFO | cache-aware pruning structural validation passed: params=455130, MACs=161208792
+2026-10-29 04:08:16,554 | INFO | Cache policy calibration offset=-0.040 params=455130 MACs=161208792 gap=0.91%
+2026-10-29 04:08:18,358 | INFO | cache-aware pruning structural validation passed: params=422658, MACs=153822680
+2026-10-29 04:08:18,370 | INFO | Cache policy calibration offset=-0.020 params=422658 MACs=153822680 gap=5.45%
+2026-10-29 04:08:20,365 | INFO | cache-aware pruning structural validation passed: params=414978, MACs=152070576
+2026-10-29 04:08:20,379 | INFO | Cache policy calibration offset=+0.000 params=414978 MACs=152070576 gap=6.53%
+2026-10-29 04:08:22,349 | INFO | cache-aware pruning structural validation passed: params=411666, MACs=151710088
+2026-10-29 04:08:22,361 | INFO | Cache policy calibration offset=+0.020 params=411666 MACs=151710088 gap=6.75%
+2026-10-29 04:08:24,381 | INFO | cache-aware pruning structural validation passed: params=398778, MACs=143862112
+2026-10-29 04:08:24,395 | INFO | Cache policy calibration offset=+0.040 params=398778 MACs=143862112 gap=11.57%
+2026-10-29 04:08:24,645 | INFO | Achieved MAC reductions are within 5.0 percentage points.
+2026-10-29 04:09:34,926 | INFO | cache_aware_pruned epoch 1/8 train_acc=93.011 val_acc=89.680 time=65.8s
+2026-10-29 04:10:44,334 | INFO | cache_aware_pruned epoch 2/8 train_acc=94.324 val_acc=88.500 time=65.3s
+2026-10-29 04:11:53,670 | INFO | cache_aware_pruned epoch 3/8 train_acc=95.031 val_acc=88.420 time=65.3s
+2026-10-29 04:13:04,657 | INFO | cache_aware_pruned epoch 4/8 train_acc=95.909 val_acc=91.160 time=65.5s
+2026-10-29 04:14:16,879 | INFO | cache_aware_pruned epoch 5/8 train_acc=96.827 val_acc=91.600 time=68.1s
+2026-10-29 04:15:26,532 | INFO | cache_aware_pruned epoch 6/8 train_acc=97.511 val_acc=92.040 time=65.5s
+2026-10-29 04:16:36,206 | INFO | cache_aware_pruned epoch 7/8 train_acc=98.236 val_acc=92.360 time=65.6s
+2026-10-29 04:17:45,705 | INFO | cache_aware_pruned epoch 8/8 train_acc=98.498 val_acc=92.640 time=65.4s
+2026-10-29 04:18:08,957 | INFO | Final artifact generation complete. Required artifacts verified: 11/11

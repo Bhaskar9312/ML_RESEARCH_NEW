@@ -1,0 +1,2 @@
+model,epoch,train_loss,train_accuracy_percent,validation_loss,validation_accuracy_percent,epoch_time_sec,learning_rate
+conventional_pruned,1,1.923941969871521,29.1015625,2.0060757398605347,23.046875,49.643623700001626,0.0

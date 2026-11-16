@@ -1,0 +1,2 @@
+model,epoch,train_loss,train_accuracy_percent,validation_loss,validation_accuracy_percent,epoch_time_sec,learning_rate
+cache_aware_pruned,1,1.9868255853652954,26.416015625,1.999251902103424,21.2890625,10.520609400000467,0.0

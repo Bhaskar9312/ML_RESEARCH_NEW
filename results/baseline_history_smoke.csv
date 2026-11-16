@@ -1,0 +1,2 @@
+model,epoch,train_loss,train_accuracy_percent,validation_loss,validation_accuracy_percent,epoch_time_sec,learning_rate
+baseline,1,2.120240479707718,21.58203125,2.007225900888443,24.609375,3.905942999999752,0.0
