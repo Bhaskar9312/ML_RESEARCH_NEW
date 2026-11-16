@@ -1,0 +1,4 @@
+model,test_accuracy,test_loss,parameter_count,parameter_count_millions,selected_channel_fraction
+baseline,0.8015,0.9459377947330475,2351972,2.351972,0.0
+conventional_masked,0.7978,1.0662007753372191,2351972,2.351972,0.0999436936936937
+cache_aware_masked,0.7966,1.0635223309516906,2351972,2.351972,0.0999436936936937

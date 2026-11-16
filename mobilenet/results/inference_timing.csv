@@ -1,0 +1,4 @@
+model,mean_seconds_per_image,median_seconds_per_image,timed_batches,device
+baseline,0.000827670641081113,0.0008178200624797682,35,cuda
+conventional_masked,0.0009524004607182438,0.0009524835937213538,35,cuda
+cache_aware_masked,0.0009524388857244048,0.0009524060938019829,35,cuda
