@@ -1,0 +1,23 @@
+{
+  "dataset": "CIFAR-100",
+  "architecture": "CIFAR-adapted ViT-Tiny-style",
+  "seed": 42,
+  "smoke_test": false,
+  "baseline_epochs": 50,
+  "finetune_epochs": 20,
+  "batch_size": 128,
+  "num_workers": 0,
+  "embed_dim": 192,
+  "depth": 6,
+  "initial_heads": 3,
+  "head_prune_fraction": 0.3333333333333333,
+  "mlp_prune_fraction": 0.25,
+  "alpha": 0.65,
+  "beta": 0.3,
+  "gamma": 0.05,
+  "cache_budget_mb_analytical": 4.0,
+  "nvml_available": true,
+  "baseline_parameters": 2710948,
+  "conventional_parameters": 1971364,
+  "cache_aware_parameters": 1971364
+}

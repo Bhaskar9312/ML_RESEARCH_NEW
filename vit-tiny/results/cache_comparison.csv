@@ -1,0 +1,4 @@
+Model,Mean attention WS (MB),Mean MLP WS (MB),Mean attention penalty,Mean MLP penalty
+Baseline,0.11939048767089844,0.1904296875,0.0,0.0
+Conventional compact,0.07959365844726562,0.142822265625,0.0,0.0
+Cache-aware compact,0.07959365844726562,0.142822265625,0.0,0.0
