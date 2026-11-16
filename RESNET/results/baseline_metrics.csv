@@ -1,0 +1,2 @@
+model,test_accuracy_percent,parameters,trainable_parameters,model_size_mb,flops,latency_batch_ms,latency_image_ms,peak_gpu_memory_mb,timed_batches,processed_images,energy_available,avg_gpu_power_w,energy_j,energy_per_batch_j,energy_per_image_j,energy_per_image_mj,measurement_time_sec
+Baseline ResNet-18,93.6,11173962,11173962,42.66205596923828,556659712.0,22.531269999890355,0.1760255468741434,596.7685546875,100,12688,True,39.87664,224.4226906422164,2.244226906422164,0.01768779087659335,17.687790876593347,5.627923783002188

@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "smoke_test": false,
+  "batch_size": 128,
+  "num_workers": 0,
+  "baseline_epochs": 50,
+  "finetune_epochs": 20,
+  "conventional_pruning_ratio": 0.3,
+  "cache_aware_max_ratio": 0.4,
+  "round_to": 8,
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "nvml_available": true,
+  "l2_cache_mb": 24.0,
+  "l2_cache_source": "PyTorch property: L2_cache_size",
+  "cifar_raw_root": "/home/komal-sai-jakka/ACADEMICS/5th_sem/machine_learning/research/data/cifar-10-batches-py",
+  "memmap_root": "/home/komal-sai-jakka/ACADEMICS/5th_sem/machine_learning/research/data/cifar10_memmap"
+}
